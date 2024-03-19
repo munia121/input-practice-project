@@ -32,8 +32,8 @@ const NavBar = () => {
             </div>
 
             <div className="bg-purple-400 flex items-center md:justify-around">
-                <h2 className="text-3xl font-extrabold">Signup website</h2>
-                <ul className={`md:flex  px-10 font-bold gap-10 md:static duration-1000 absolute bg-purple-400  p-5 ${open ? 'left-10' : '-left-60'}`}>
+                <h2 className="text-3xl font-extrabold ">Signup website</h2>
+                <ul className={`md:flex  px-10 font-bold gap-10 md:static duration-1000 absolute bg-purple-400  p-5 ${open ? 'top-8' : '-top-60'}`}>
                     {
                         routes.map(route => <Link route={route}></Link>)
 
